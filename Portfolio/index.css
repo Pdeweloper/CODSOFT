@@ -1,0 +1,248 @@
+body {
+    background-color: blueviolet;
+    color: white;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(42, 6, 75);
+    height: 80px;
+    width: none;
+    margin: none;
+  }
+  nav ul {
+    display: flex;
+justify-content: end;
+padding-right: 140px;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    background-color: violet;
+    padding: 5px;
+  }
+  .left {
+    font-size: 1.5rem;
+    width: 25%;
+    text-align: center;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+  }
+  .firstsection > div {
+    width: 40%;
+    margin-left: 8rem;
+  }
+  .right{
+    width:75%;
+  }
+  .rightsection img {
+    width: 300px;
+
+    /* height: 400px; */
+    margin-top: 50px;
+    border-radius: 50%;
+    /* background-color: red;  */
+  }
+  .leftsection {
+    /* background-color: red; */
+    font-size: 3rem;
+    margin-top: 2rem;
+    width:60%!important;
+  }
+  .leftsection button{
+margin-top: 2rem;
+margin: 1.2rem;
+    padding: 11px;
+background: blueviolet;
+border: 2px solid white;
+font-size: 1.2rem;
+border-radius: 6px;
+  }
+  .leftsection button:hover{
+    background-color: rgb(29, 0, 56);
+  }
+  .leftsection button a{
+    text-decoration: none;
+    color: white;
+  }
+
+  main hr {
+    border: 0;
+    background: rgb(103, 0, 134);
+    height: 0.2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .secondsection span {
+    position: relative;
+    left: 88px;
+    top: 35px;
+    color: black;
+  }
+  .secondsection h2 {
+    margin: 30px 84px;
+    font-size: 3rem;
+    /* color: rgb(45, 21, 68); */
+  }
+  .secondsection .box {
+    background: white;
+    height: 2px;
+    width: 80vw;
+    margin: 56px 90px;
+    display: flex;
+    /* margin-left: 20px; */
+  }
+  .secondsection .vertical {
+    background: white;
+    height: 4rem;
+    width: 2px;
+    margin-left: 25%;
+  }
+  .vertical .vertical1 {
+    width: 156px;
+    position: relative;
+    top: 8px;
+    right: 39px;
+  }
+  .vertical .vertical2 {
+    width: 156px;
+    position: relative;
+    top: 25px;
+    right: 39px;
+    font-size: 1rem;
+  }
+  .vertical .img1{
+    width: 50px;
+    position: relative;
+    bottom: 41px;
+    left: -21px;
+  }
+  .vertical .img2 {
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+    left: -21px;
+  }
+  .vertical .img3 {
+    width: 70px;
+    position: relative;
+    bottom: 38px;
+    left: -30px;
+  }
+  .class10 {
+    position: relative;
+    top: 5px;
+    right: 39px;
+    right: 50 px;
+    width: 100px;
+    font-size: 1.3rem;
+    color: rgb(57, 6, 70);
+  }
+  .class11 {
+    position: relative;
+top: 21px;
+right: 55px;
+right: 50 px;
+width: 226px;
+font-size: 1.3rem;
+color: rgb(57, 6, 70);
+  }
+  main .second {
+    border: 0;
+    background: rgb(103, 0, 134);
+    height: 0.2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 17%;
+  }
+  .thirdsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+  }
+  .left1 {
+    /* background-color: red; */
+    height: 20%;
+  }
+  .right1 {
+    /* background-color: red; */
+    height: 20%;
+    width: 30%;
+  }
+  .left1 span {
+    font-size: 3rem;
+    color: rgb(53, 1, 53);
+    position: relative;
+    left: -91px;
+  }
+  .right1 span {
+    font-size: 3rem;
+    color: rgb(53, 1, 53);
+    position: relative;
+    left: -209px;
+  }
+  .left1 ul {
+    font-size: 2rem;
+  }
+  .right1 ul {
+    font-size: 1.5rem;
+  }
+  footer{
+    background-color: rgb(181, 167, 202);
+    padding: 10%;
+    height: 3rem;
+  }
+  .foot1 span{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: -100px;
+    left: -66px;
+  }
+  .foot2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -68px;
+    left: 34px;
+  }
+  .imgfoot1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .imgfoot2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  .imgfoot3{
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  .imgfoot4{
+    position: relative;
+    width: 144px;
+    height: 100px;
+  }
+  .foot3 h3{
+    color: black;
+    margin-left: 43%;
+    position: relative;
+    top: -45px;
+  }
